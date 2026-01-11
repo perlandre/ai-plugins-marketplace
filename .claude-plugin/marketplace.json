@@ -1,0 +1,19 @@
+{
+  "name": "perlandre-marketplace",
+  "description": "Claude Code plugins for documentation, diagrams, and developer productivity",
+  "owner": {
+    "name": "perlandre"
+  },
+  "plugins": [
+    {
+      "name": "app-diagram",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/perlandre/app-diagram.git"
+      },
+      "description": "Generate comprehensive state machine and sequence diagrams. Includes diagram-generator and diagram-updater agents (Opus) for thorough codebase analysis with Mermaid output.",
+      "version": "0.1.0",
+      "category": "documentation"
+    }
+  ]
+}
