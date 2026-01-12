@@ -1,19 +1,33 @@
 {
-  "name": "perlandre-marketplace",
-  "description": "Claude Code plugins for documentation, diagrams, and developer productivity",
+  "name": "ai-plugins-marketplace",
   "owner": {
-    "name": "perlandre"
+    "name": "perlandre",
+    "email": "perlandre.gg@gmail.com"
+  },
+  "metadata" : {
+    "description": "Claude Code plugins for documentation, diagrams, and developer productivity",
+    "version" : "0.1.0"
   },
   "plugins": [
     {
       "name": "app-diagram",
       "source": {
-        "source": "url",
-        "url": "https://github.com/perlandre/app-diagram.git"
+        "source": "github",
+        "repo": "perlandre/app-diagram"
       },
       "description": "Generate comprehensive state machine and sequence diagrams. Includes diagram-generator and diagram-updater agents (Opus) for thorough codebase analysis with Mermaid output.",
       "version": "0.1.0",
       "category": "documentation"
+    },
+    {
+      "name": "icp-dev",
+      "source": {
+        "source": "github",
+        "repo": "perlandre/icp-dev"
+      },
+      "description": "Plugin to make Internet Computer (ICP) development feel native and seamless. The plugin provides slash commands for common workflows (local dev, deployment, cycles management) with safety guardrails for risky operations.",
+      "version": "0.1.0",
+      "category": "productivity"
     }
   ]
 }
